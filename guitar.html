@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="guitar.css">
+</head>
+<body>
+<div id="container">
+    <div class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn">Guitar </button>
+           <div class="dropdown-content">
+              <a href="#">Electric Guitars</a>
+              <a href="#">Acoustic Guitars</a>
+              <a href="#">Acoustic-Electric Guitars</a>
+              <a href="#">Classical Guitars</a>
+           </div>
+      </div>
+      <a href="#">Bass</a>
+      <a href="#">Keyboards</a>
+      <a href="#">Dj & Lightning</a>
+      <a href="#">Used Gear</a>
+      <a href="#">Clearance</a>
+    </div>
+
+    <div class="image">
+       <img src="main.jpg" height="400" width="600" id="g1"><br/><br/>
+        <input type="button" value="Previous" id="pre" onclick="prev()">
+        <input type="button" value="Next" id="nx" onclick="nxt()" >
+    </div><br/><br/>
+
+
+
+
+     <div class="coll">
+         <div class="abc1">
+             <input type="button" class="info"  id="b1" onclick="piinfo()" value="+ PRODUCT INFO">
+
+            <div class="pinfo" id="ic" style="display:none" >
+
+            </div>
+         </div><br/><br/>
+
+
+         <div class="abc2">
+            <button class="info"  id="b2" onclick="sinfo()"> + SHIPPING INFO </button>
+            <div class="pinfo" style="display:none" id="s">
+
+            </div>
+         </div> <br/><br/>
+
+         <div class="abc3">
+            <button class="info" id="b3" onclick="cr()"> + CUST REVIEWS </button>
+            <div class="pinfo" style="display:none" id="c">
+
+            </div>
+         </div>    <br/><br/>
+
+
+
+     </div>
+
+
+    <input type="button" id="buy" value="BUY" onclick="location.href='guitar2.html'">
+
+</div>
+<script src="guitar.js"></script>
+
+</body>
+</html>

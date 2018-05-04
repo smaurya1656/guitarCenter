@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="guitar.css">
+</head>
+<link rel="stylesheet" href="guitar.css">
+<body>
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Guitar </button>
+            <div class="dropdown-content">
+                <a href="#">Electric Guitars</a>
+                <a href="#">Acoustic Guitars</a>
+                <a href="#">Acoustic-Electric Guitars</a>
+                <a href="#">Classical Guitars</a>
+            </div>
+        </div>
+        <a href="#">Bass</a>
+        <a href="#">Keyboards</a>
+        <a href="#">Dj & Lightning</a>
+        <a href="#">Used Gear</a>
+        <a href="#">Clearance</a>
+    </div><br/>
+    <div id="upper">
+    <div id="ims" >
+        <img id="ima" height="250px" width="450px">
+    </div>
+    <div id="desc">
+
+    </div>
+    </div>
+
+    <div id="frm_details">
+        F.N :  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input type="text" id="fn"><br/><br/>
+        L.N :  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input type="text" id="ln"><br/><br/>
+        C.C :   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input type="text" id="cc"><br/><br/>
+        E-MAIL : <input type="text" id="em"><br/><br/>
+    </div><br/><br/>
+
+    <input type="button" id="review" value="GO TO REVIEW" onclick="get_review()">
+    <br/><br/>
+    <div id="review_detail">
+        <div id="rd"></div>
+        <span id="bd"> <input type="button" id="buy_button" value="BUY" onclick="location.href='guitar3.html'"></span>
+    </div>
+
+    <script src="guitar2.js"></script>
+
+</body>
+</html>

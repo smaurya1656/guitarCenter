@@ -1,0 +1,211 @@
+.navbar {
+    overflow: hidden;
+    background-color: #A0A0A0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+ .dropdown:hover .dropbtn {
+    background-color: 	#505050;
+}
+
+.navbar a:hover{
+    background-color: #505050;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: 	#505050;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.image{
+    margin-left: 350px;
+    border-radius: 5px;
+}
+
+#pre{
+    margin-left: 0px;
+    background-color: #505050;
+    border-radius: 2px;
+}
+
+#nx{
+    margin-left:460px;
+    width: 70px;
+    background-color: #505050;
+    border-radius: 2px;
+}
+
+body{
+   background-color: lightblue;
+}
+
+#ic{
+   display: none;
+}
+
+.info , .pinfo{
+    margin-left: 550px;
+}
+
+.info{
+    background-color: #505050;
+    border-radius: 2px;
+    height: 30px;
+    width: 200px;
+}
+
+.pinfo{
+    background-color: #505050;
+    border-radius: 5px;
+    width : 400px;
+}
+
+#buy{
+    margin-left: 1200px;
+    border-radius: 2px;
+    width: 80px;
+    background-color: darkslategrey;
+
+}
+
+#ims{
+    float: left;
+    margin-left: 20px;
+    height: 300px;
+    width: 400px;
+}
+
+#desc{
+    width:600px;
+    background-color: cornflowerblue;
+    margin-left: 600px;
+    height: 210px;
+    padding: 20px;
+
+}
+#upper{
+    height: 320px;
+}
+
+#frm_details{
+    margin-left: 500px;
+    background-color: royalblue;
+    width: 300px;
+    height: 180px;
+    padding: 10px;
+}
+
+#review{
+    margin-left:800px;
+    background-color: #505050;
+    border-radius: 2px;
+    height:40px;
+    width: 130px;
+}
+
+#review_detail{
+    border-style: dashed;
+    height:220px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: cornflowerblue;
+    padding: 20px;
+
+}
+
+#rd{
+    background-color: cornflowerblue;
+    height: 200px !important;
+}
+
+#bd{
+    background-color: white;
+    position: relative;
+    float: right;
+    bottom: 20px;
+
+}
+
+
+#buy_button{
+
+    width: 80px;
+    background-color: darkslategray;
+    border-radius: 2px;
+    height: 40px;
+
+}
+
+#finalimg{
+    margin-left: 350px;
+}
+
+h1{
+    text-align: center;
+}
+
+#cond{
+    padding: 20px;
+    font-size: large;
+}
+
+#pd,#sd,#p,#noi{
+    list-style-type: square;
+}
+
+#home{
+    float:right;
+    width: 220px;
+    margin-right: 50px;
+    height: 50px;
+    font-size: larger;
+    border-radius: 2px;
+    background-color: darkslategrey;
+}
